@@ -1,0 +1,93 @@
+name: New Tool Request
+description: Request a new developer tool or automation from CodeVolt
+title: "[TOOL REQUEST] "
+labels: ["tool-request", "triage"]
+body:
+  - type: input
+    id: tool_name
+    attributes:
+      label: Tool Name
+      description: What would you call this tool?
+      placeholder: e.g., "LogAnalyzer Pro" or "ServerSync"
+    validations:
+      required: true
+      
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem You're Solving
+      description: What specific problem does this tool address?
+      placeholder: |
+        Describe the pain point in detail:
+        - What takes too long?
+        - What's error-prone?
+        - What manual work could be automated?
+    validations:
+      required: true
+      
+  - type: textarea
+    id: current_workflow
+    attributes:
+      label: Current Workflow
+      description: How do you handle this currently?
+      placeholder: |
+        Walk through your current process:
+        1. Step one...
+        2. Step two...
+        3. Pain points...
+    validations:
+      required: true
+      
+  - type: textarea
+    id: desired_solution
+    attributes:
+      label: Desired Solution
+      description: What would the ideal tool do?
+      placeholder: |
+        Describe the ideal outcome:
+        - What inputs would it take?
+        - What outputs would it produce?
+        - What decisions would it automate?
+    validations:
+      required: true
+      
+  - type: textarea
+    id: target_users
+    attributes:
+      label: Target Users
+      description: Who would use this tool?
+      placeholder: |
+        - Solo developers?
+        - DevOps teams?
+        - Specific tech stacks (Docker, K8s, AWS, etc.)?
+        - Experience level (junior, senior, etc.)?
+    validations:
+      required: true
+      
+  - type: dropdown
+    id: deployment
+    attributes:
+      label: Preferred Deployment
+      description: How would you want to run this?
+      options:
+        - CLI tool (command line)
+        - Web application
+        - VS Code extension
+        - GitHub Action
+        - Docker container
+        - API/service
+        - Not sure / Open to suggestions
+    validations:
+      required: true
+      
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Pre-submission Checks
+      options:
+        - label: I have searched existing tool requests to avoid duplicates
+          required: true
+        - label: This tool would be useful to other developers (not just me)
+          required: true
+        - label: I understand this is a request, not a guarantee of development
+          required: true

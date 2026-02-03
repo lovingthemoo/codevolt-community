@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: CodeVolt Website
+    url: https://codevolt.co.uk
+    about: Check out our tools and newsletter
+  - name: Security Issues
+    url: mailto:rook@codevolt.co.uk
+    about: Report security vulnerabilities privately
+  - name: Privacy Requests
+    url: mailto:rook@codevolt.co.uk
+    about: Data subject rights requests (GDPR)
