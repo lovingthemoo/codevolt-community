@@ -30,11 +30,16 @@ Share ideas, ask questions, and connect with the community:
 - **[General Discussion](../../discussions/categories/general)** — Share ideas and community chat
 - **[Show and Tell](../../discussions/categories/show-and-tell)** — Share what you've built
 
-### 🐛 Report Issues
+### 🐛 Report Bugs
 
-Tool-specific bugs should be reported in their respective repositories:
-- [PriceVolt issues](https://github.com/lovingthemoo/pricevolt/issues)
-- [Secure Vault issues](https://github.com/lovingthemoo/secure-vault/issues)
+**Per-tool bug reporting** — Each tool has its own isolated issue area:
+
+| Tool | Bug Report Link |
+|------|-----------------|
+| **PriceVolt** | [Report PriceVolt Bug](../../issues/new?template=bug_report_pricevolt.yml) |
+| **Newsletter/Website** | [Report General Bug](../../issues/new?template=bug_report_general.yml) |
+
+**Why isolated?** Keeps issues organised by tool, makes tracking easier, prevents cross-tool confusion.
 
 ### 📧 Contact
 
