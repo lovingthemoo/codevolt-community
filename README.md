@@ -23,9 +23,12 @@ We prioritize requests based on:
 
 ### 🗣️ Start a Discussion
 
-- Share ideas in [Discussions](../../discussions)
-- Ask questions about our tools
-- Share your use cases
+Share ideas, ask questions, and connect with the community:
+
+- **[Tool Requests](../../discussions/categories/tool-requests)** — Request new tools or features
+- **[Q&A](../../discussions/categories/q-a)** — Get help and ask questions
+- **[General Discussion](../../discussions/categories/general)** — Share ideas and community chat
+- **[Show and Tell](../../discussions/categories/show-and-tell)** — Share what you've built
 
 ### 🐛 Report Issues
 
@@ -43,9 +46,9 @@ Tool-specific bugs should be reported in their respective repositories:
 
 | Tool | Description | Status |
 |------|-------------|--------|
-| [PriceVolt](https://codevolt.co.uk/pricevolt/) | Server price monitoring | In Development |
-| [Secure Vault](http://100.69.177.96:8889/) | Credential management | Internal Use |
-| [DevOps Automation](https://codevolt.co.uk/weekly/) | Weekly automation scripts | Active |
+| [PriceVolt](https://codevolt.co.uk/pricevolt/) | Competitor price monitoring with alerts | In Development |
+| [DevOps Automation](https://codevolt.co.uk/weekly/) | Production-tested automation scripts | Active |
+| Newsletter | Weekly DevOps scripts and insights | [Subscribe](https://codevolt.co.uk/#newsletter) |
 
 ## Stay Updated
 
