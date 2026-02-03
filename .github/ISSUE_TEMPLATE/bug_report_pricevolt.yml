@@ -1,0 +1,98 @@
+name: Bug Report — PriceVolt
+description: Report a bug or issue with PriceVolt
+title: "[PRICEVOLT BUG] "
+labels: ["bug", "pricevolt", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a PriceVolt issue. This form is specifically for PriceVolt bugs only.
+        
+        For other tools, use the appropriate bug report template.
+
+  - type: dropdown
+    id: issue_type
+    attributes:
+      label: Issue Type
+      description: What kind of problem are you experiencing?
+      options:
+        - Price not detected
+        - Alert not received
+        - Dashboard not loading
+        - API error
+        - Scraping failure
+        - Notification issue (email/Slack/Discord/Telegram)
+        - Performance problem
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the Bug
+      description: What happened? What did you expect to happen?
+      placeholder: |
+        Clear description of the issue:
+        - What were you trying to do?
+        - What actually happened?
+        - What did you expect to happen?
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to Reproduce
+      description: How can we reproduce this issue?
+      placeholder: |
+        1. Go to '...'
+        2. Click on '...'
+        3. Enter '...'
+        4. See error
+    validations:
+      required: true
+
+  - type: input
+    id: product_url
+    attributes:
+      label: Product URL (if applicable)
+      description: Which product were you monitoring?
+      placeholder: https://example.com/product
+
+  - type: input
+    id: user_email
+    attributes:
+      label: Your Account Email
+      description: So we can look up your account if needed
+      placeholder: you@example.com
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots / Logs
+      description: If applicable, add screenshots or error messages
+      placeholder: Paste screenshots or error logs here
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      description: How severe is this issue?
+      options:
+        - Critical — Cannot use the service
+        - High — Major functionality impacted
+        - Medium — Workaround exists
+        - Low — Minor inconvenience
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Pre-submission Checks
+      options:
+        - label: I have searched existing PriceVolt issues to avoid duplicates
+          required: true
+        - label: This is a PriceVolt-specific issue (not another tool)
+          required: true

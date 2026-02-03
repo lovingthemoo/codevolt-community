@@ -9,3 +9,7 @@ contact_links:
   - name: Privacy Requests
     url: mailto:rook@codevolt.co.uk
     about: Data subject rights requests (GDPR)
+
+# Bug reports are handled via templates above:
+# - Bug Report — PriceVolt (for PriceVolt-specific issues)
+# - Bug Report — General (for website, newsletter, other services)
